@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Gridfully",
   description: "Get done with your UI/UX design with ease",
-  icons: "/images/logo.svg",
+  icons: "/assets/logo.svg",
 };
 
 export default function RootLayout({

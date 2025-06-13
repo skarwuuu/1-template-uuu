@@ -9,32 +9,32 @@ import ScrollColumns from "@/components/ScrollColumns";
 const integrations = [
   {
     name: "Figma",
-    src: "/images/integrations/figma-logo.svg",
+    src: "/assets/integrations/figma-logo.svg",
     description: "Figma is a collaborative interface design tool.",
   },
   {
     name: "Notion",
-    src: "/images/integrations/notion-logo.svg",
+    src: "/assets/integrations/notion-logo.svg",
     description: "Notion is an all-in-one workspace for notes and docs.",
   },
   {
     name: "Slack",
-    src: "/images/integrations/slack-logo.svg",
+    src: "/assets/integrations/slack-logo.svg",
     description: "Slack is a powerful team communication platform.",
   },
   {
     name: "Relume",
-    src: "/images/integrations/relume-logo.svg",
+    src: "/assets/integrations/relume-logo.svg",
     description: "Relume is a no-code website builder and design system.",
   },
   {
     name: "Framer",
-    src: "/images/integrations/framer-logo.svg",
+    src: "/assets/integrations/framer-logo.svg",
     description: "Framer is a professional website prototyping tool.",
   },
   {
     name: "GitHub",
-    src: "/images/integrations/github-logo.svg",
+    src: "/assets/integrations/github-logo.svg",
     description: "GitHub is the leading platform for code collaboration.",
   },
 ];

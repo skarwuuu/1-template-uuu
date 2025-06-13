@@ -41,7 +41,7 @@ export default function CTA() {
           {Array.from({ length: 10 }).map((_, i) => (
             <div key={i} className="flex items-center gap-8 md:gap-10 lg:gap-18">
               <span className="relative size-12 md:size-16 lg:size-20">
-                <Image src={"/images/logo.svg"} alt="Gridfully" fill />
+                <Image src={"/assets/logo.svg"} alt="Gridfully" fill />
               </span>
               <span className="text-4xl md:text-5xl lg:text-6xl font-semibold transition duration-300 group-hover:text-amber-600 select-none">
                 Try it for free

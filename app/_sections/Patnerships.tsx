@@ -10,14 +10,14 @@ import Image from "next/image";
 
 import { motion } from "motion/react";
 
-import quantumLogo from "@/public/images/patnerships/quantum.svg";
-import acmeLogo from "@/public/images/patnerships/acme-corp.svg";
-import echoValleyLogo from "@/public/images/patnerships/echo-valley.svg";
-import pulseLogo from "@/public/images/patnerships/pulse.svg";
-import outsideLogo from "@/public/images/patnerships/outside.svg";
-import apexLogo from "@/public/images/patnerships/apex.svg";
-import celestialLogo from "@/public/images/patnerships/celestial.svg";
-import twiceLogo from "@/public/images/patnerships/twice.svg";
+import quantumLogo from "@/public/assets/patnerships/quantum.svg";
+import acmeLogo from "@/public/assets/patnerships/acme-corp.svg";
+import echoValleyLogo from "@/public/assets/patnerships/echo-valley.svg";
+import pulseLogo from "@/public/assets/patnerships/pulse.svg";
+import outsideLogo from "@/public/assets/patnerships/outside.svg";
+import apexLogo from "@/public/assets/patnerships/apex.svg";
+import celestialLogo from "@/public/assets/patnerships/celestial.svg";
+import twiceLogo from "@/public/assets/patnerships/twice.svg";
 
 const logos = [
   { name: "Quantum", image: quantumLogo },

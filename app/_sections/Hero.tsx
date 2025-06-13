@@ -44,13 +44,13 @@ export default function Hero() {
     <section
       className="py-30 md:py-35 xl:py-40 px-4 overflow-x-clip"
       style={{
-        cursor: `url(/images/cursor.svg) 12 12, auto`,
+        cursor: `url(/assets/cursor.svg) 12 12, auto`,
       }}
     >
       <div className="relative container mx-auto flex flex-col items-center gap-6">
         <div className="flex items-center gap-1 bg-radial-[at_25%_20%] from-neutral-600 to-black text-neutral-100 px-3 py-1 rounded-full select-none">
           <span className="font-bold text-xs">$3M SEEDS ROUND RAISED</span>
-          <Image src={"/images/heart.svg"} height={20} width={20} alt="pixel-heart" />
+          <Image src={"/assets/heart.svg"} height={20} width={20} alt="pixel-heart" />
         </div>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-center max-w-sm md:max-w-lg lg:max-w-xl">
           Impactful design, created effortlesly
@@ -86,7 +86,7 @@ export default function Hero() {
           dragElastic={0.2}
         >
           <Image
-            src={"/images/hero/design-example-1.png"}
+            src={"/assets/hero/design-example-1.png"}
             alt="design example"
             width={318}
             height={354}
@@ -110,7 +110,7 @@ export default function Hero() {
           dragElastic={0.2}
         >
           <Image
-            src={"/images/hero/design-example-2.png"}
+            src={"/assets/hero/design-example-2.png"}
             alt="design example"
             width={220}
             height={350}

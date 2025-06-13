@@ -18,7 +18,7 @@ export default function Footer() {
       <div className="container mx-auto">
         <div className="flex flex-col items-center md:flex-row md:justify-between gap-4">
           <div className="flex items-center gap-1">
-            <Image src={"/images/logo.svg"} alt="Gridfully" width={30} height={30} />
+            <Image src={"/assets/logo.svg"} alt="Gridfully" width={30} height={30} />
             <span className="font-bold text-2xl">Gridfully</span>
           </div>
           <div className="flex gap-4 md:gap-6">

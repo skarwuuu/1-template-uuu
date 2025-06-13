@@ -28,7 +28,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               <Image
-                src={"/images/logo.svg"}
+                src={"/assets/logo.svg"}
                 height={30}
                 width={30}
                 alt="logo"

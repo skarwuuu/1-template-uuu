@@ -63,19 +63,19 @@ export default function Features() {
           >
             <Avatar
               name="ashwin-santiago"
-              src="/images/avatar/avatar-ashwin-santiago.jpg"
+              src="/assets/avatar/avatar-ashwin-santiago.jpg"
               colour="#00b8db"
               className="z-10"
             />
             <Avatar
               name="florence-shaw"
-              src="/images/avatar/avatar-florence-shaw.jpg"
+              src="/assets/avatar/avatar-florence-shaw.jpg"
               colour="#ff2056"
               className="z-9"
             />
             <Avatar
               name="lula-meyers"
-              src="/images/avatar/avatar-lula-meyers.jpg"
+              src="/assets/avatar/avatar-lula-meyers.jpg"
               colour="#6bbe00"
               className="z-8"
             />
@@ -87,7 +87,7 @@ export default function Features() {
               >
                 <Avatar
                   name="owen-garcia"
-                  src="/images/avatar/avatar-owen-garcia.jpg"
+                  src="/assets/avatar/avatar-owen-garcia.jpg"
                   colour="#e17100"
                   className=""
                 />
@@ -112,7 +112,7 @@ export default function Features() {
               <span className="bg-gradient-to-br from-amber-400 to-amber-800 text-transparent bg-clip-text relative">
                 <span>incredible</span>
                 <video
-                  src={"/images/gif.mp4"}
+                  src={"/assets/gif.mp4"}
                   autoPlay
                   muted
                   loop
