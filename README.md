@@ -34,6 +34,7 @@ This project leverages modern web technologies:
 
 <div align="center">
  <img src="./public/screenshots/2.png" alt="Responsive Screenshot" height="600">
+ <img src="./public/screenshots/3.png" alt="Responsive Screenshot" height="600">
 </div>
 
 ---
@@ -55,12 +56,6 @@ Follow these steps to get a local copy up and running.
     pnpm run dev
     ```
     Your project is now running at `http://localhost:3000`.
-
----
-
-## License
-
-Distributed under the Apache License 2.0. See [LICENSE](https://github.com/skarwuuu/1-template-uuu/blob/main/LICENSE) for more information.
 
 ---
 
