@@ -1,4 +1,5 @@
 # Gridfully - Next.js Website Template
+### 😻 Special Thanks to [Frontend Tribe](https://www.youtube.com/channel/UCKZZiXKJ8rU7LkRaTS2CDcA) - [Project Video](https://www.youtube.com/watch?v=ZZqIR0ru0I4)
 
 Gridfully is a sleek, modern, and fully responsive website template built with Next.js and Motion.dev. It's designed to provide a robust starting point for developers looking to build applications with a clean layout or designers looking for ideas.
 
@@ -17,7 +18,7 @@ This project leverages modern web technologies:
 [Next.js]: https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
+[React-url]: https://react.dev/
 [TailwindCSS]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
 [TailwindCSS-url]: https://tailwindcss.com/
 [Motion.dev]: https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white
@@ -34,6 +35,7 @@ This project leverages modern web technologies:
 
 <div align="center">
  <img src="./public/screenshots/2.png" alt="Responsive Screenshot" height="600">
+ <img src="./public/screenshots/3.png" alt="Responsive Screenshot" height="600">
 </div>
 
 ---
@@ -55,12 +57,6 @@ Follow these steps to get a local copy up and running.
     pnpm run dev
     ```
     Your project is now running at `http://localhost:3000`.
-
----
-
-## License
-
-Distributed under the Apache License 2.0. See [LICENSE](https://github.com/skarwuuu/1-template-uuu/blob/main/LICENSE) for more information.
 
 ---
 
