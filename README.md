@@ -1,5 +1,5 @@
 # Gridfully - Next.js Website Template
-### 😻 Special Thanks to [Frontend Tribe](https://www.youtube.com/channel/UCKZZiXKJ8rU7LkRaTS2CDcA) - [Project Video](https://www.youtube.com/watch?v=ZZqIR0ru0I4&t=5662s)
+### 😻 Special Thanks to [Frontend Tribe](https://www.youtube.com/channel/UCKZZiXKJ8rU7LkRaTS2CDcA) - [Project Video](https://www.youtube.com/watch?v=ZZqIR0ru0I4)
 
 Gridfully is a sleek, modern, and fully responsive website template built with Next.js and Motion.dev. It's designed to provide a robust starting point for developers looking to build applications with a clean layout or designers looking for ideas.
 
