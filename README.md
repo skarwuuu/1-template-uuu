@@ -48,7 +48,7 @@ Follow these steps to get a local copy up and running.
     ```
     git clone https://github.com/skarwuuu/1-template-uuu.git
     ```
-2.  Install PNPM packages
+2.  Install node_modules folder
     ```
     pnpm install
     ```
