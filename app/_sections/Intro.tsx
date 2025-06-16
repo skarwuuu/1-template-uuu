@@ -27,11 +27,11 @@ export default function Intro() {
   }, [wordIndex]);
 
   return (
-    <section className="py-30 md:py-35 xl:py-40 px-4">
+    <section className="px-4">
       <div className="max-w-7xl mx-auto">
         <div className="sticky top-0 flex flex-col items-center justify-center h-screen">
           <Badge label="Introducing Gridfully" colour="#e17100" className="mb-4" />
-          <div className="text-balance text-4xl md:text-7xl md:px-10 lg:text-6xl lg:px-2 lg:leading-18 text-center font-medium">
+          <div className="text-balance text-3xl md:text-5xl md:px-10 lg:px-2 lg:leading-16 text-center font-medium">
             <span>Your creative process deserves better.</span>{" "}
             <span>
               {words.map((word, wordIndex) => (
