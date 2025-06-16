@@ -36,7 +36,9 @@ export default function ScrollColumns(props: {
                 <Image src={integration.src} alt={integration.name} fill />
               </div>
               <h3 className="text-xl font-medium mt-3 text-center">{integration.name}</h3>
-              <p className="text-neutral-600 mt-1 text-center">{integration.description}</p>
+              <p className="text-neutral-600 mt-1 text-center text-balance">
+                {integration.description}
+              </p>
             </div>
           ))}
         </Fragment>
