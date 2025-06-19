@@ -33,6 +33,19 @@ export default function Footer() {
             ))}
           </div>
         </div>
+        <div className="mt-12 border-t border-neutral-700 pt-8 text-center text-neutral-500">
+          <p>&copy; {new Date().getFullYear()} Gridfully. All Rights Reserved.</p>
+          <p className="text-sm mt-1">
+            designed by{" "}
+            <Link
+              href="https://github.com/skarwuuu"
+              target="_blank"
+              className="hover:text-neutral-600 underline duration-200"
+            >
+              skarwuuu
+            </Link>
+          </p>
+        </div>
       </div>
     </footer>
   );
