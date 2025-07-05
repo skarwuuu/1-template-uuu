@@ -23,20 +23,42 @@ export default function Hero() {
       [leftImgScope.current, { opacity: 1 }, { duration: 0.5 }],
       [leftImgScope.current, { y: 0, x: 0 }, { duration: 1.2, type: "spring" }],
     ]);
+
     leftPointerAnimate([
       [leftPointerScope.current, { opacity: 1 }, { duration: 0.5 }],
-      [leftPointerScope.current, { y: -20, x: -90 }, { duration: 1.2, type: "spring" }],
-      [leftPointerScope.current, { y: [-20, 0], x: 0 }, { duration: 0.6, ease: "easeInOut" }],
+      [
+        leftPointerScope.current,
+        { y: -20, x: -90 },
+        { duration: 1.2, type: "spring" },
+      ],
+      [
+        leftPointerScope.current,
+        { y: [-20, 0], x: 0 },
+        { duration: 0.6, ease: "easeInOut" },
+      ],
     ]);
 
     rightImgAnimate([
       [rightImgScope.current, { opacity: 1 }, { duration: 0.5 }],
-      [rightImgScope.current, { y: 0, x: 0 }, { duration: 1.2, type: "spring" }],
+      [
+        rightImgScope.current,
+        { y: 0, x: 0 },
+        { duration: 1.2, type: "spring" },
+      ],
     ]);
+
     rightPointerAnimate([
       [rightPointerScope.current, { opacity: 1 }, { duration: 0.5 }],
-      [rightPointerScope.current, { y: 70, x: 70 }, { duration: 1.2, type: "spring" }],
-      [rightPointerScope.current, { y: [70, 0], x: 0 }, { duration: 0.6, ease: "easeInOut" }],
+      [
+        rightPointerScope.current,
+        { y: 70, x: 70 },
+        { duration: 1.2, type: "spring" },
+      ],
+      [
+        rightPointerScope.current,
+        { y: [70, 0], x: 0 },
+        { duration: 0.6, ease: "easeInOut" },
+      ],
     ]);
   }, []);
 
@@ -50,18 +72,25 @@ export default function Hero() {
       <div className="relative container mx-auto flex flex-col items-center gap-6">
         <div className="flex items-center gap-1 bg-radial-[at_25%_20%] from-neutral-600 to-black text-neutral-100 px-3 py-1 rounded-full select-none">
           <span className="font-bold text-xs">$3M SEEDS ROUND RAISED</span>
-          <Image src={"/assets/heart.svg"} height={20} width={20} alt="pixel-heart" />
+          <Image
+            src={"/assets/heart.svg"}
+            height={20}
+            width={20}
+            alt="pixel-heart"
+          />
         </div>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-center max-w-sm md:max-w-lg lg:max-w-xl">
           Impactful design, created effortlesly
         </h1>
         <p className="text-lg md:text-xl text-center text-black/50 max-w-2xl">
-          Design tools shouldn&apos;t slow you down. Gridfully combines powerful features with an
-          intuitive interface that keeps you in your creative flow.
+          Design tools shouldn&apos;t slow you down. Gridfully combines powerful
+          features with an intuitive interface that keeps you in your creative
+          flow.
         </p>
         <div className="mt-6 md:mt-12 xl:mt-18">
           <p className="text-md md:text-lg lg:text-xl text-center">
-            Sign up now to get <span className="font-bold">exclusive</span> offers!
+            Sign up now to get <span className="font-bold">exclusive</span>{" "}
+            offers!
           </p>
           <form className="md:min-w-xl mt-2 flex gap-1 p-1 border-2 border-black/15 focus-within:border-black/50 rounded-full duration-200">
             <input
@@ -71,7 +100,7 @@ export default function Hero() {
             />
             <button
               type="submit"
-              className="group flex items-center gap-1 border-2 border-black bg-black text-neutral-100 px-4 mr-[1px] rounded-full h-10 min-w-fit duration-100 xl:"
+              className="group flex items-center gap-1 border-2 border-black bg-black text-neutral-100 px-4 mr-[0.5px] rounded-full h-10 min-w-fit duration-100 xl:"
             >
               <span className="group-active:scale-98 duration-20">Sign Up</span>
             </button>

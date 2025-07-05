@@ -3,18 +3,17 @@
  * @license Apache-2.0
  */
 
-@import url("https://fonts.cdnfonts.com/css/dm-sans");
-@import url("https://fonts.cdnfonts.com/css/dm-mono-2");
-
 @import "tailwindcss";
 
-@theme {
-  --font-sans: "DM Sans";
-  --font-mono: "DM Mono";
+@theme inline {
+  --font-sans: var(--font-dm-sans);
+  --font-mono: var(--font-dm-mono);
 }
 
 :root {
-  scroll-behavior: smooth !important;
   color: black;
   background-color: whitesmoke;
+
+  /* Scroll Behaviour */
+  scroll-behavior: smooth !important;
 }
