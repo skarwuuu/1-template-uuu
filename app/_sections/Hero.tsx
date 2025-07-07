@@ -10,6 +10,7 @@ import Pointer from "@/components/Pointer";
 
 import { motion, useAnimate } from "motion/react";
 import { useEffect } from "react";
+import Badge from "@/components/Badge";
 
 export default function Hero() {
   const [leftImgScope, leftImgAnimate] = useAnimate();
@@ -70,15 +71,7 @@ export default function Hero() {
       }}
     >
       <div className="relative container mx-auto flex flex-col items-center gap-6">
-        <div className="flex items-center gap-1 bg-radial-[at_25%_20%] from-neutral-600 to-black text-neutral-100 px-3 py-1 rounded-full select-none">
-          <span className="font-bold text-xs">$3M SEEDS ROUND RAISED</span>
-          <Image
-            src={"/assets/heart.svg"}
-            height={20}
-            width={20}
-            alt="pixel-heart"
-          />
-        </div>
+        <Badge label="Version 2.0 is here" colour="black" />
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-center max-w-sm md:max-w-lg lg:max-w-xl">
           Impactful design, created effortlesly
         </h1>

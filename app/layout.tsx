@@ -24,8 +24,8 @@ const dmMono = DM_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gridfully",
-  description: "Get done with your UI/UX design with ease",
+  title: "Template 1 - Gridfully",
+  description: "Template 1 - by skarwuuu",
   icons: "/assets/logo.svg",
 };
 

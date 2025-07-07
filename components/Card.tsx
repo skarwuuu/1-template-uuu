@@ -26,14 +26,17 @@ export default function Card({
 }: CardProps) {
   return (
     <div
-      className={twMerge("bg-neutral-200 border border-black/10 rounded-2xl p-4", cardClassName)}
+      className={twMerge(
+        "bg-neutral-200 border border-black/10 rounded-2xl p-4",
+        cardClassName
+      )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
       <div className={twMerge("aspect-video", className)}>{children}</div>
       <div>
         <h3 className="text-xl font-medium mt-3">{title}</h3>
-        <p className="text-neutral-600 mt-1">{desc}</p>
+        <p className="text-neutral-500 mt-1">{desc}</p>
       </div>
     </div>
   );

@@ -37,7 +37,13 @@ function Avatar({
       className={`overflow-hidden rounded-full w-fit border-3 p-1 bg-neutral-300 ${className || ""}`}
       style={{ borderColor: colour }}
     >
-      <Image src={src} alt={name} width={50} height={50} className="rounded-full" />
+      <Image
+        src={src}
+        alt={name}
+        width={50}
+        height={50}
+        className="rounded-full"
+      />
     </div>
   );
 }
@@ -145,9 +151,9 @@ export default function Features() {
           {features.map((feature) => (
             <div
               key={feature}
-              className="inline-flex items-center gap-1.5 bg-neutral-300 border border-black/10 px-2.5 py-0.5 rounded-lg w-fit select-none group hover:scale-108 transition duration-400"
+              className="inline-flex items-center gap-1.5 bg-neutral-300 border border-black/10 px-2.5 py-0.5 rounded-lg w-fit select-none group hover:scale-106 transition duration-400"
             >
-              <Feather className="size-4 group-hover:-rotate-90 transition duration-400" />
+              <Feather className="size-4" />
               <span>{feature}</span>
             </div>
           ))}

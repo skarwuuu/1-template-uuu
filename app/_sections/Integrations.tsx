@@ -54,14 +54,17 @@ export default function Integrations() {
             <h2 className="text-center text-rose-600 text-2xl md:text-3xl lg:text-4xl">
               Plays well with <span className="font-bold">others</span>
             </h2>
-            <p className="mt-2 text-center text-neutral-600">
-              Gridfully seamlessly connects with your favourite tool, making it easy to plug into
-              any workflow and collaborate across platforms.
+            <p className="mt-2 text-center text-neutral-500">
+              Gridfully seamlessly connects with your favourite tool, making it
+              easy to plug into any workflow and collaborate across platforms.
             </p>
           </div>
           <div>
             <div className="mt-6 lg:mt-0 h-120 lg:h-200 overflow-hidden grid sm:grid-cols-2 gap-4 mask-y-from-80% mask-y-to-100%">
-              <ScrollColumns integrations={integrations} className="max-w-sm mx-auto" />
+              <ScrollColumns
+                integrations={integrations}
+                className="max-w-sm mx-auto"
+              />
               <ScrollColumns
                 integrations={integrations.slice().reverse()}
                 className="hidden sm:flex max-w-sm mx-auto"

@@ -49,12 +49,19 @@ export default function FAQs() {
         </h2>
         <div className="mt-6 flex flex-col gap-4">
           {faqs.map((faq, index) => (
-            <div key={faq.question} className="bg-neutral-200 border border-black/10 rounded-2xl">
+            <div
+              key={faq.question}
+              className="bg-neutral-200 border border-black/10 rounded-2xl"
+            >
               <div
                 className="flex gap-2 justify-between items-center cursor-pointer p-4"
-                onClick={() => setSelectedIndex(selectedIndex === index ? -1 : index)}
+                onClick={() =>
+                  setSelectedIndex(selectedIndex === index ? -1 : index)
+                }
               >
-                <h3 className="text-lg lg:text-xl font-medium">{faq.question}</h3>
+                <h3 className="text-lg lg:text-xl font-medium">
+                  {faq.question}
+                </h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -83,7 +90,7 @@ export default function FAQs() {
                     className="overflow-hidden"
                   >
                     <div className="mb-4 mx-4">
-                      <p className="text-neutral-600">{faq.answer}</p>
+                      <p className="text-neutral-500">{faq.answer}</p>
                     </div>
                   </motion.div>
                 )}

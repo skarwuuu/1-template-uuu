@@ -18,29 +18,36 @@ export default function Footer() {
       <div className="container mx-auto">
         <div className="flex flex-col items-center md:flex-row md:justify-between gap-4">
           <div className="flex items-center gap-1">
-            <Image src={"/assets/logo.svg"} alt="Gridfully" width={30} height={30} />
+            <Image
+              src={"/assets/logo.svg"}
+              alt="Gridfully"
+              width={30}
+              height={30}
+            />
             <span className="font-bold text-2xl">Gridfully</span>
           </div>
-          <div className="flex gap-4 md:gap-6">
+          <div className="flex gap-1 md:gap-3">
             {footerLinks.map((footerLink) => (
               <Link
                 key={footerLink.label}
                 href={footerLink.href}
-                className="text-neutral-600 hover:text-neutral-800 duration-200 text-sm md:text-base"
+                className="shrink-0 px-2 py-px rounded-lg text-neutral-500 hover:text-neutral-50 hover:bg-black active:scale-97 duration-400 text-sm md:text-base"
               >
                 {footerLink.label}
               </Link>
             ))}
           </div>
         </div>
-        <div className="mt-12 border-t border-neutral-700 pt-8 text-center text-neutral-500">
-          <p>&copy; {new Date().getFullYear()} Gridfully. All Rights Reserved.</p>
+        <div className="mt-12 border-t border-neutral-400 pt-8 text-center text-neutral-400">
+          <p>
+            &copy; {new Date().getFullYear()} Gridfully. All Rights Reserved.
+          </p>
           <p className="text-sm mt-1">
-            designed by{" "}
+            designed and made by{" "}
             <Link
               href="https://github.com/skarwuuu"
               target="_blank"
-              className="hover:text-neutral-600 underline duration-200"
+              className="hover:text-black underline duration-200"
             >
               skarwuuu
             </Link>
