@@ -3,7 +3,7 @@
  * @license Apache-2.0
  */
 
-import "@/styles/globals.css";
+import "@/styles.css";
 import type { Metadata } from "next";
 
 import Navbar from "@/components/Navbar";
@@ -24,8 +24,8 @@ const dmMono = DM_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Template 1 - Gridfully",
-  description: "Template 1 - by skarwuuu",
+  title: "Template 1",
+  description: "by skarwuuu",
   icons: "/assets/logo.svg",
 };
 
